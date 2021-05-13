@@ -31,17 +31,17 @@ public Placar(String time1, String time2) { //construtor3
     this (time1, time2, 0,0);
 }
 
+//jeito1
 //public String exibir() {
-   //     return (time1 +  gol1 + "x" +  gol2 +  time2);
+   //   return (time1 +  gol1 + "x" +  gol2 +  time2);
 //}
 
-
-public String toString() {
-    return (time1 +  gol1 + "x" +  gol2 +  time2);
-}//
-
-//OU
+//jeito2
 //public void exibir()
     //System.out.println( time1 +  gol1 + "x" +  gol2 +  time2);
 
+
+public String toString() { //é um método
+    return (time1 +  gol1 + "x" +  gol2 +  time2);
+    }
 }

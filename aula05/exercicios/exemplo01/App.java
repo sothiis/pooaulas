@@ -13,12 +13,13 @@ public class App {
         System.out.println( p3.toString() );
 
 
+        //jeito 1
         //System.out.println( p1.exibir() );
         //System.out.println( p2.exibir() );
         //System.out.println( p3.exibir() );
 
 
-        //OU
+        //jeito2
         // p1.exibir();
         // p2.exibir();
         //p3.exibir();

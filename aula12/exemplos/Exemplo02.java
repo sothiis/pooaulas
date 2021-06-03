@@ -15,14 +15,15 @@ public class Exemplo02 {
             System.out.println("Entrada de dados inválida.");
         } catch (NumberFormatException excecao) {
             System.out.println("Erro de digitação.");
-        }catch(Exception exececao) {
-            //exececao generica 
+        } catch (Exception exececao) { // exececao variavel local
+            // exececao generica
             System.out.println("Erro:  " + exececao.getMessage());
+        } finally {
+            System.out.println("Fechando as conexões...");
+            entrada.close(); // executa dando certo ou errado
         }
 
         System.out.println("Final do programa.");
 
-        entrada.close();
     }
 }
-//exececao variavel local
